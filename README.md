@@ -135,6 +135,10 @@ The document: docs, READMEs, runbooks, error messages, release notes:
 
 Two modes. Plain, the default, is all of the above. Strict adds the STE dictionary discipline from [`strict-vocabulary.md`](skills/simple-english/references/strict-vocabulary.md) when you name STE, ASD-STE100, or compliance. The reply stays Plain in every mode.
 
+## Bahasa Indonesia
+
+[`skills/bahasa-sederhana/`](skills/bahasa-sederhana/SKILL.md) applies the same rules to Indonesian text: EYD V and KBBI spelling, active voice, `harus`/`dapat`/`akan` as the only modals, one term for one meaning. It has no Strict mode, because ASD-STE100 has an English dictionary only. The plugin installs it next to `simple-english`.
+
 ## FAQ
 
 Does this make output STE-certified? No. Nothing does, because ASD certifies no tool. Strict mode gets close. Word-level rulings live in the official standard, a [free download](https://www.asd-ste100.org/request.html).
